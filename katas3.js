@@ -247,7 +247,7 @@ function kata17() {
 }
 
 function kata18() {
-    showTitle('kata17:');
+    showTitle('kata18:');
     
     let posicao = 0;
     let contador = sampleArray[0];
