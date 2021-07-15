@@ -32,6 +32,7 @@ function showTitle(x){
     //adiciona titulo
     let caminho = document.getElementById('top');
     caminho.appendChild(paragrafo);
+    
 
 }
 
@@ -43,7 +44,7 @@ function kata1() {
         resultado[i] = i+1;
     }
 
-
+    showResults(resultado);
     return resultado;
 }
 
@@ -57,6 +58,7 @@ function kata2() {
         contador--;
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -68,6 +70,7 @@ function kata3() {
         resultado[i] = -(i+1);
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -81,6 +84,7 @@ function kata4() {
         contador--;
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -96,6 +100,7 @@ function kata5() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -111,6 +116,7 @@ function kata6() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -126,6 +132,7 @@ function kata7() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -141,6 +148,7 @@ function kata8() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -156,12 +164,14 @@ function kata9() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
 function kata10() {
     showTitle('kata10:');
-    return resultado;
+    showResults(sampleArray);
+    return sampleArray;
 }
 
 function kata11() {
@@ -174,6 +184,7 @@ function kata11() {
             contador++;
         }
     }
+    showResults(resultado);
     return resultado;
 }
 
@@ -187,6 +198,7 @@ function kata12() {
             contador++;
         }
     }
+    showResults(resultado);
     return resultado;
 }
 
@@ -200,6 +212,7 @@ function kata13() {
             contador++;
         }
     }
+    showResults(resultado);
     return resultado;
 }
 
@@ -211,6 +224,7 @@ function kata14() {
         resultado[contador] = (sampleArray[i]*sampleArray[i])
         contador++;
     }
+    showResults(resultado);
     return resultado;
 }
 
@@ -220,6 +234,7 @@ function kata15() {
     for(let i = 0; i <= 20; i++){
         contador += i;
     }
+    showResults([contador]);
     return [contador];
 }
 
@@ -231,6 +246,7 @@ function kata16() {
         contador += sampleArray[posicao];
         posicao++;
     }
+    showResults([contador]);
     return [contador];
 }
 
@@ -245,6 +261,7 @@ function kata17() {
             contador = sampleArray[i]
         }
     }
+    showResults([contador]);
     return [contador];
 }
 
@@ -259,6 +276,7 @@ function kata18() {
             contador = sampleArray[i]
         }
     }
+    showResults([contador]);
     return [contador];
 }
 
