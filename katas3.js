@@ -141,7 +141,7 @@ function kata8() {
     let resultado = [];
 
     let contador = 0;
-    for(let i = 1; i < 100; i++){
+    for(let i = 100; i > 0; i--){
         if(i%7 === 0 || i%3 === 0){
             resultado[contador] = i;
             contador++;
